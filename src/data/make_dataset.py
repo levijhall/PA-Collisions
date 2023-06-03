@@ -9,7 +9,7 @@ from sqlite3 import connect
 
 import schema
 
-DB_NAME = 'data/raw/collisions.db'
+DB_NAME = 'data/interim/collisions.db'
 
 
 def connect_to_db():
